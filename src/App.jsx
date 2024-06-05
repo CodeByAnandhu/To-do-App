@@ -34,6 +34,7 @@ function App() {
 
     return (
         <main>
+
             <Header />
             <div className='wrapper'>
             {tasks.map((task, index) => (
@@ -47,6 +48,8 @@ function App() {
             ))}
             </div>
             <TaskForm onAdd={addTask} />
+
+           
         </main>
     );
 }

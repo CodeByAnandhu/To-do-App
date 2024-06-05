@@ -16,12 +16,12 @@ export default function TaskForm({ onAdd }) {
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>  
                 <input
                     type="text"
                     value={taskName}
                     onChange={ev => setTaskName(ev.target.value)}
-                    placeholder="What's the plan, anandhu?"
+                    placeholder="What's the plan boss?"
                 />
                 <i onClick={handleSubmit} className="fa-solid fa-circle-chevron-up"></i>                <button style={{display: 'none'}} type="submit">Add Task</button>
             </form>
