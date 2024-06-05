@@ -38,7 +38,7 @@ export default function Task({ task, onDelete, onEdit, onToggleDone }) {
                     </button>
                    
                 </div>
-                <span className="updateTime">2 days ago</span>
+                <span className="updateTime">now never you forget</span>
             </div>
         
     );
